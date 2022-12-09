@@ -1,0 +1,36 @@
+.cont-margin{
+    display: flex;
+    justify-content: center;
+}
+.home-cont{
+   width: 95%;
+    padding: .6rem;
+    background-color:var(--all-bg-clr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color:var( --text-data);
+}
+.home-img img{
+    width: 45vw;
+
+}
+.text-cont{
+    width:45vw;
+    margin: 1rem;
+    text-align: justify;
+
+}
+
+
+
+@media(max-width:800px){
+    .home-img img{
+        width: 80vw;
+        
+    }
+    .text-cont{
+width:80vw
+    }
+}

@@ -1,0 +1,116 @@
+.list-container{
+  padding: 1rem;  
+  margin: 2rem;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+color:var( --text-data)
+}
+.input-cont{
+    width: 50vw;
+    background-color: var(   --para-clr);
+    padding: .2rem;
+    min-height: 1.5rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+
+}
+::-webkit-input-placeholder{
+    color:var( --text-data)
+}
+.list-input{
+    background-color: var(--para-clr);
+    width: 50vw;
+     height: 2.5rem;
+    border: none;
+    margin: 0;
+    padding: 0.5rem;
+    word-wrap:break-word;
+}
+input {
+    color:var(--text-data);
+}
+.btn-add{
+    background-color: var(--para-clr);
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    color: var( --btn-text);
+}
+.addsize{
+font-size: 2rem;
+}
+
+.iconz:hover{
+    scale:1.2;
+}
+.list-store{
+    background-color: var( --para-clr);
+    color:var( --text-data);
+    padding: .6rem;
+    box-sizing: border-box;
+    min-height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.btn-delet{
+    display: flex;
+    align-items: center;
+     box-sizing: border-box;
+    font-size: 1.6rem;
+    padding: .4rem;
+    border-radius: 2px;
+}
+.btn-delet:hover{
+    scale:1.2;
+}
+.remove-center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.remove-btn{
+    border-radius: .6rem;
+    text-align: center;
+    margin: 1rem;
+    background-color:var(--btn-rem);
+    padding: .4rem 1.5rem;
+    color:var(--btn-text);
+    font-weight: 600;
+}
+.remove-btn:hover{
+    scale:1.025;
+}
+
+
+@media(max-width:450px){
+    .list-container{
+       width:80vw
+      }
+      .input-cont{
+        width: 80vw;
+    }
+    .list-input{
+          width: 80vw;
+    }
+    .btn-add{
+        background-color: var(--para-clr);
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+        font-size: 1.4rem;
+        color: var( --btn-text);
+    }
+
+}
